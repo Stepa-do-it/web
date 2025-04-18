@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshukov production</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #0f0015;">
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a001a;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img.png" alt="Логотип" width="100" class="me-3"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Отличия от других агенств</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Блок с названием проекта -->
+    <header class="text-white text-center py-5" style="background: linear-gradient(to right, #000000, #2a0038, #4b0082);">
+        <div class="container">
+            <h1>Eshukov production</h1>
+            <p class="lead">Eshukov production - это агенство по прокачке личного бренда. Мы разрабатываем стратегию, создаем контент и оптимизируем онлайн-присутствие, чтобы повысить узнаваемость и доверие, а также привлечь целевую аудиторию. Ваш успех — наша цель.</p>
+            <img src="logo.png" alt="Изображение стартапа" class="img-fluid" width="600">
+        </div>
+    </header>
+
+    <!-- Блок с особенностями проекта -->
+    <section id="features" class="py-5" style="background-color: #0f0015;">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">Чем мы отличаемся от других?</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-violet">
+                        <i class="fas fa-cogs fa-3x text-violet card-img-top p-3"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">ИИ технологии</h5>
+                            <p class="card-text text-custom">Мы используем Ai решения для улучшения узнаваемости и проведения аналитики.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-violet">
+                        <i class="fas fa-users fa-3x text-violet card-img-top p-3"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Лучшие эксперты на рынке</h5>
+                            <p class="card-text text-custom">Быстрые результаты после первых месяцев сотрудничества с нашим агенстовом.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-violet">
+                        <i class="fas fa-thumbs-up fa-3x text-violet card-img-top p-3"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Идеальная репутация</h5>
+                            <p class="card-text text-custom">Все наши клиенты увеличили охваты после сотрудничества с нами.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с контактной формой -->
+    <section id="contact" class="py-5" style="background-color: #0f0015;">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">Обратная связь</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-white">Ваши ФИО</label>
+                            <input type="text" class="form-control bg-dark text-white border-violet" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">Электронная почта</label>
+                            <input type="email" class="form-control bg-dark text-white border-violet" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-white">Что вас интересует?</label>
+                            <textarea class="form-control bg-dark text-white border-violet" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-violet">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="text-center py-4" style="background-color: #1a001a;">
+        <div class="container">
+            <h4 class="text-white">Наши контакты</h4>
+            <ul class="list-unstyled text-white">
+                <li><i class="fas fa-phone me-2"></i> Телефон: +7 985 907 24 38</li>
+                <li><i class="fas fa-envelope me-2"></i> Email: s.eshukov@yandex.ru</li>
+                <li><i class="fas fa-map-marker-alt me-2"></i> Адрес: Москва, ул. Михалковская, 3</li>
+            </ul>
+            <p class="text-muted">&copy; 2025. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
